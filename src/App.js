@@ -11,6 +11,12 @@ function App() {
         <Route path="/" element={<LandingPage />} />
         <Route path="/morning" element={<Morning />} />
         <Route path="/evening" element={<Evening />} />
+        <Route
+          path="/thankyou"
+          element={
+            <h1 style={{ textAlign: "center" }}>Tak for din besvarelse</h1>
+          }
+        />
       </Routes>
     </BrowserRouter>
   );
