@@ -3,6 +3,7 @@ import "./App.css";
 import LandingPage from "./pages/LandingPage";
 import Morning from "./pages/Morning";
 import Evening from "./pages/Evening";
+import Admin from "./pages/Admin";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
             <h1 style={{ textAlign: "center" }}>Tak for din besvarelse</h1>
           }
         />
+        <Route path="/admin" element={<Admin />} />
       </Routes>
     </BrowserRouter>
   );
