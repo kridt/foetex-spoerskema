@@ -6,42 +6,8 @@ export default function Admin() {
   const [allAnswers, setAllAnswers] = useState([]);
   const [morning, setMorning] = useState([]);
   const [evening, setEvening] = useState([]);
-  /* const [loading, setLoading] = useState(false); */
 
-  /* const thatData = [
-    ["Kundeoplevelser gns", "Aften", "Morgen"],
-    ["Hvor nemt er det at finde en medarbejder i nonfood?", 5, 4],
-    [
-      "Hvor gode er medarbejderne i nonfood afdelingen til at besvare dine spørgsmål?",
-      4,
-      1,
-    ],
-    [
-      "Hvor gode er medarbejderne i nonfood afdelingen til at vise dig hen til den vare du leder efter?",
-      4,
-      3,
-    ],
-    [
-      "Er der forskel på Servicen hvis du handler i weekenden frem for i hverdagen?",
-      5,
-      5,
-    ],
-    [
-      "Er der forskel på servicen hvis du handler fra 7-15 i stedet for 15-21?",
-      1,
-      5,
-    ],
-  ]; */
-  /* const options = {
-    title: "Kundeoplevelser gennemsit",
-    chartArea: { width: "50%" },
-    hAxis: {
-      title: "Gennemsnit ud af 6",
-      minValue: 0,
-      maxValue: 5,
-    },
-  };
- */
+  /* const [loading, setLoading] = useState(false); */
 
   useEffect(() => {
     firestore
@@ -59,27 +25,139 @@ export default function Admin() {
       .collection("answers")
       .get()
       .then((snapshot) => setEvening(snapshot.docs.map((doc) => doc.data())));
+  }, [setMorning, setEvening]);
 
+  useEffect(() => {
     setAllAnswers([...morning, ...evening]);
-  }, []);
-
+  }, [morning, evening]);
   console.log(allAnswers);
   return (
     <div>
       <h1>Admin og statistik</h1>
-
+      <h2>total antal svar: {allAnswers?.length}</h2>
       <div style={{ display: "flex", justifyContent: "space-evenly" }}>
         <div style={{ display: "flex", justifyContent: "space-evenly" }}>
           <div
             className="morgenStats"
             style={{ borderRight: "1px white solid ", paddingRight: "1em" }}
           >
+            <h1 style={{ textAlign: "center" }}>
+              {(morning?.length / allAnswers?.length).toFixed(4) * 100}%
+            </h1>
             <h3 style={{ textAlign: "center" }}>Morgen</h3>
             <h3>Antal svar 7-15: {morning?.length}</h3>
+            <div style={{ display: "flex", justifyContent: "space-between" }}>
+              <p>Find medarbejder: </p>
+              <p>
+                {(
+                  morning?.reduce(
+                    (acc, curr) => acc + parseInt(curr.findMedarbejder),
+                    0
+                  ) / morning?.length
+                ).toFixed(2)}
+              </p>
+            </div>
+            <div style={{ display: "flex", justifyContent: "space-between" }}>
+              <p>Svar på spørgsmål: </p>
+              <p>
+                {(
+                  morning?.reduce(
+                    (acc, curr) => acc + parseInt(curr.answerQuestions),
+                    0
+                  ) / morning?.length
+                ).toFixed(2)}
+              </p>
+            </div>
+            <div style={{ display: "flex", justifyContent: "space-between" }}>
+              <p>vis vej til vare: </p>
+              <p>
+                {(
+                  morning?.reduce(
+                    (acc, curr) => acc + parseInt(curr.showWay),
+                    0
+                  ) / morning?.length
+                ).toFixed(2)}
+              </p>
+            </div>
+            <div style={{ display: "flex", justifyContent: "space-between" }}>
+              <p>forskel weekend: </p>
+              <p>
+                {(
+                  morning?.reduce(
+                    (acc, curr) => acc + parseInt(curr.difOnService),
+                    0
+                  ) / morning?.length
+                ).toFixed(2)}
+              </p>
+            </div>
+            <div style={{ display: "flex", justifyContent: "space-between" }}>
+              <p>forskel service tid: </p>
+              <p>
+                {(
+                  morning?.reduce(
+                    (acc, curr) => acc + parseInt(curr.difOnServiceTime),
+                    0
+                  ) / morning?.length
+                ).toFixed(2)}
+              </p>
+            </div>
           </div>
           <div className="aftenStats" style={{ paddingLeft: "1em" }}>
+            <h1 style={{ textAlign: "center" }}>
+              {(evening?.length / allAnswers?.length).toFixed(4) * 100}%
+            </h1>
             <h3 style={{ textAlign: "center" }}>Aften</h3>
             <h3>Antal svar 15-21: {evening?.length}</h3>
+            <div style={{ display: "flex", justifyContent: "center" }}>
+              <p>
+                {(
+                  evening?.reduce(
+                    (acc, curr) => acc + parseInt(curr.findMedarbejder),
+                    0
+                  ) / evening?.length
+                ).toFixed(2)}
+              </p>
+            </div>
+            <div style={{ display: "flex", justifyContent: "center" }}>
+              <p>
+                {(
+                  evening?.reduce(
+                    (acc, curr) => acc + parseInt(curr.answerQuestions),
+                    0
+                  ) / evening?.length
+                ).toFixed(2)}
+              </p>
+            </div>
+            <div style={{ display: "flex", justifyContent: "center" }}>
+              <p>
+                {(
+                  evening?.reduce(
+                    (acc, curr) => acc + parseInt(curr.showWay),
+                    0
+                  ) / evening?.length
+                ).toFixed(2)}
+              </p>
+            </div>
+            <div style={{ display: "flex", justifyContent: "center" }}>
+              <p>
+                {(
+                  evening?.reduce(
+                    (acc, curr) => acc + parseInt(curr.difOnService),
+                    0
+                  ) / evening?.length
+                ).toFixed(2)}
+              </p>
+            </div>
+            <div style={{ display: "flex", justifyContent: "center" }}>
+              <p>
+                {(
+                  evening?.reduce(
+                    (acc, curr) => acc + parseInt(curr.difOnServiceTime),
+                    0
+                  ) / evening?.length
+                ).toFixed(2)}
+              </p>
+            </div>
           </div>
         </div>
       </div>

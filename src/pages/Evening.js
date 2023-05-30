@@ -41,6 +41,7 @@ export default function Evening() {
           <br />
           <br />
           <div style={{ display: "flex", justifyContent: "space-evenly" }}>
+            <p>Svært</p>
             <div
               style={{
                 display: "flex",
@@ -144,6 +145,7 @@ export default function Evening() {
 
               <label htmlFor="6">6</label>
             </div>
+            <p>Nemt</p>
           </div>
         </div>
         <div>
@@ -161,6 +163,7 @@ export default function Evening() {
           <br />
           <br />
           <div style={{ display: "flex", justifyContent: "space-evenly" }}>
+            <p>Dårlige</p>
             <div
               style={{
                 display: "flex",
@@ -264,6 +267,7 @@ export default function Evening() {
 
               <label htmlFor="6">6</label>
             </div>
+            <p>Gode</p>
           </div>
         </div>
         <div>
@@ -281,6 +285,7 @@ export default function Evening() {
           <br />
           <br />
           <div style={{ display: "flex", justifyContent: "space-evenly" }}>
+            <p>Dårlige</p>
             <div
               style={{
                 display: "flex",
@@ -348,6 +353,7 @@ export default function Evening() {
 
               <label htmlFor="6">6</label>
             </div>
+            <p>Gode</p>
           </div>
         </div>
         <div>
@@ -365,6 +371,7 @@ export default function Evening() {
           <br />
           <br />
           <div style={{ display: "flex", justifyContent: "space-evenly" }}>
+            <p>Ingen</p>
             <div
               style={{
                 display: "flex",
@@ -468,6 +475,7 @@ export default function Evening() {
 
               <label htmlFor="6">6</label>
             </div>
+            <p>Stor</p>
           </div>
         </div>
         <div>
@@ -485,6 +493,7 @@ export default function Evening() {
           <br />
           <br />
           <div style={{ display: "flex", justifyContent: "space-evenly" }}>
+            <p>Ingen</p>
             <div
               style={{
                 display: "flex",
@@ -588,6 +597,7 @@ export default function Evening() {
 
               <label htmlFor="6">6</label>
             </div>
+            <p>Stor</p>
           </div>
         </div>
 

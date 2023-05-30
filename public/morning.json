@@ -1,0 +1,44 @@
+[
+  {
+    "answerQuestions": "4",
+    "difOnService": "4",
+    "difOnServiceTime": "4",
+    "findMedarbejder": "4",
+    "showWay": "4"
+  },
+  {
+    "answerQuestions": "5",
+    "difOnService": "1",
+    "difOnServiceTime": "2",
+    "findMedarbejder": "2",
+    "showWay": "4"
+  },
+  {
+    "answerQuestions": "4",
+    "difOnService": "1",
+    "difOnServiceTime": "4",
+    "findMedarbejder": "3",
+    "showWay": "2"
+  },
+  {
+    "answerQuestions": "5",
+    "difOnService": "1",
+    "difOnServiceTime": "5",
+    "findMedarbejder": "3",
+    "showWay": "2"
+  },
+  {
+    "answerQuestions": "5",
+    "difOnService": "1",
+    "difOnServiceTime": "5",
+    "findMedarbejder": "3",
+    "showWay": "2"
+  },
+  {
+    "answerQuestions": "4",
+    "difOnService": "2",
+    "difOnServiceTime": "2",
+    "findMedarbejder": "1",
+    "showWay": "5"
+  }
+]
