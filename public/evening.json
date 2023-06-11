@@ -1,37 +1,1402 @@
 [
   {
+    "showWay": "3",
+    "findMedarbejder": "4",
     "answerQuestions": "5",
     "difOnService": "4",
+    "difOnServiceTime": "4"
+  },
+  {
+    "showWay": "6",
+    "difOnServiceTime": "1",
+    "findMedarbejder": "5",
+    "answerQuestions": "6",
+    "difOnService": "5"
+  },
+  {
+    "answerQuestions": "3",
+    "findMedarbejder": "1",
+    "showWay": "2",
+    "difOnService": "3",
+    "difOnServiceTime": "3"
+  },
+  {
+    "findMedarbejder": "4",
+    "difOnService": "4",
+    "answerQuestions": "4",
+    "difOnServiceTime": "4",
+    "showWay": "5"
+  },
+  {
+    "answerQuestions": "4",
+    "difOnServiceTime": "5",
+    "showWay": "4",
+    "difOnService": "5",
+    "findMedarbejder": "3"
+  },
+  {
+    "difOnServiceTime": "4",
+    "showWay": "4",
+    "answerQuestions": "4",
+    "difOnService": "1",
+    "findMedarbejder": "2"
+  },
+  {
+    "difOnServiceTime": "5",
+    "answerQuestions": "2",
+    "difOnService": "6",
+    "findMedarbejder": "5",
+    "showWay": "5"
+  },
+  {
+    "findMedarbejder": "4",
+    "answerQuestions": "3",
+    "difOnService": "4",
+    "showWay": "4",
+    "difOnServiceTime": "4"
+  },
+  {
+    "showWay": "5",
+    "difOnService": "4",
+    "findMedarbejder": "3",
+    "answerQuestions": "5",
+    "difOnServiceTime": "5"
+  },
+  {
+    "findMedarbejder": "5",
+    "difOnService": "3",
+    "answerQuestions": "3",
+    "difOnServiceTime": "5",
+    "showWay": "3"
+  },
+  {
     "difOnServiceTime": "3",
+    "showWay": "4",
+    "difOnService": "2",
+    "findMedarbejder": "5",
+    "answerQuestions": "5"
+  },
+  {
+    "difOnService": "1",
+    "difOnServiceTime": "2",
+    "findMedarbejder": "5",
+    "answerQuestions": "4",
+    "showWay": "5"
+  },
+  {
+    "difOnService": "1",
+    "answerQuestions": "6",
+    "showWay": "6",
+    "difOnServiceTime": "3",
+    "findMedarbejder": "6"
+  },
+  {
+    "findMedarbejder": "4",
+    "difOnServiceTime": "3",
+    "answerQuestions": "4",
+    "showWay": "6",
+    "difOnService": "3"
+  },
+  {
+    "findMedarbejder": "5",
+    "difOnServiceTime": "4",
+    "showWay": "4",
+    "answerQuestions": "5",
+    "difOnService": "3"
+  },
+  {
+    "difOnService": "4",
+    "findMedarbejder": "3",
+    "difOnServiceTime": "4",
+    "answerQuestions": "3",
+    "showWay": "5"
+  },
+  {
+    "findMedarbejder": "5",
+    "answerQuestions": "5",
+    "difOnServiceTime": "1",
+    "showWay": "5",
+    "difOnService": "1"
+  },
+  {
+    "difOnServiceTime": "5",
+    "findMedarbejder": "3",
+    "showWay": "2",
+    "difOnService": "6",
+    "answerQuestions": "4"
+  },
+  {
+    "showWay": "4",
+    "findMedarbejder": "3",
+    "difOnServiceTime": "5",
+    "answerQuestions": "4",
+    "difOnService": "5"
+  },
+  {
+    "showWay": "6",
+    "answerQuestions": "5",
+    "difOnServiceTime": "2",
+    "findMedarbejder": "5",
+    "difOnService": "2"
+  },
+  {
+    "answerQuestions": "3",
+    "showWay": "3",
+    "findMedarbejder": "3",
+    "difOnService": "3",
+    "difOnServiceTime": "3"
+  },
+  {
+    "answerQuestions": "5",
+    "findMedarbejder": "4",
+    "showWay": "5",
+    "difOnServiceTime": "4",
+    "difOnService": "4"
+  },
+  {
+    "difOnService": "6",
+    "findMedarbejder": "4",
+    "difOnServiceTime": "5",
+    "showWay": "5",
+    "answerQuestions": "5"
+  },
+  {
+    "findMedarbejder": "6",
+    "answerQuestions": "6",
+    "difOnService": "6",
+    "showWay": "6",
+    "difOnServiceTime": "6"
+  },
+  {
+    "difOnServiceTime": "5",
+    "findMedarbejder": "3",
+    "showWay": "5",
+    "difOnService": "1",
+    "answerQuestions": "4"
+  },
+  {
+    "difOnServiceTime": "4",
+    "showWay": "2",
+    "difOnService": "2",
+    "answerQuestions": "2",
+    "findMedarbejder": "2"
+  },
+  {
+    "showWay": "4",
+    "answerQuestions": "3",
+    "difOnServiceTime": "6",
+    "difOnService": "6",
+    "findMedarbejder": "6"
+  },
+  {
+    "findMedarbejder": "4",
+    "answerQuestions": "5",
+    "difOnServiceTime": "2",
+    "difOnService": "1",
+    "showWay": "5"
+  },
+  {
+    "answerQuestions": "5",
+    "difOnServiceTime": "4",
+    "showWay": "5",
+    "difOnService": "4",
+    "findMedarbejder": "5"
+  },
+  {
+    "answerQuestions": "3",
+    "showWay": "3",
+    "difOnService": "5",
+    "findMedarbejder": "5",
+    "difOnServiceTime": "5"
+  },
+  {
+    "difOnService": "2",
+    "findMedarbejder": "4",
+    "difOnServiceTime": "2",
+    "answerQuestions": "4",
+    "showWay": "4"
+  },
+  {
+    "findMedarbejder": "3",
+    "showWay": "3",
+    "difOnService": "1",
+    "answerQuestions": "3",
+    "difOnServiceTime": "1"
+  },
+  {
+    "answerQuestions": "5",
+    "difOnServiceTime": "6",
+    "showWay": "5",
+    "findMedarbejder": "5",
+    "difOnService": "6"
+  },
+  {
+    "difOnServiceTime": "3",
+    "showWay": "3",
+    "difOnService": "5",
+    "answerQuestions": "5",
+    "findMedarbejder": "4"
+  },
+  {
+    "difOnServiceTime": "4",
+    "findMedarbejder": "3",
+    "answerQuestions": "4",
+    "difOnService": "3",
+    "showWay": "4"
+  },
+  {
+    "answerQuestions": "3",
+    "difOnServiceTime": "3",
+    "findMedarbejder": "3",
+    "difOnService": "3",
+    "showWay": "4"
+  },
+  {
+    "showWay": "5",
+    "answerQuestions": "4",
     "findMedarbejder": "2",
-    "showWay": "1"
+    "difOnService": "2",
+    "difOnServiceTime": "2"
+  },
+  {
+    "findMedarbejder": "1",
+    "difOnService": "1",
+    "showWay": "1",
+    "difOnServiceTime": "6",
+    "answerQuestions": "1"
+  },
+  {
+    "showWay": "6",
+    "difOnServiceTime": "6",
+    "difOnService": "5",
+    "answerQuestions": "5",
+    "findMedarbejder": "6"
+  },
+  {
+    "showWay": "5",
+    "difOnService": "1",
+    "answerQuestions": "5",
+    "findMedarbejder": "5",
+    "difOnServiceTime": "2"
+  },
+  {
+    "difOnService": "1",
+    "answerQuestions": "5",
+    "showWay": "5",
+    "difOnServiceTime": "1",
+    "findMedarbejder": "6"
+  },
+  {
+    "difOnService": "2",
+    "showWay": "6",
+    "answerQuestions": "6",
+    "difOnServiceTime": "4",
+    "findMedarbejder": "6"
+  },
+  {
+    "difOnService": "1",
+    "findMedarbejder": "4",
+    "answerQuestions": "4",
+    "difOnServiceTime": "1",
+    "showWay": "6"
+  },
+  {
+    "showWay": "5",
+    "difOnService": "5",
+    "difOnServiceTime": "4",
+    "answerQuestions": "4",
+    "findMedarbejder": "4"
+  },
+  {
+    "showWay": "3",
+    "difOnService": "3",
+    "difOnServiceTime": "5",
+    "answerQuestions": "3",
+    "findMedarbejder": "2"
+  },
+  {
+    "difOnServiceTime": "6",
+    "answerQuestions": "5",
+    "findMedarbejder": "6",
+    "showWay": "6",
+    "difOnService": "1"
+  },
+  {
+    "difOnServiceTime": "4",
+    "showWay": "4",
+    "difOnService": "4",
+    "answerQuestions": "4",
+    "findMedarbejder": "4"
+  },
+  {
+    "findMedarbejder": "6",
+    "answerQuestions": "5",
+    "showWay": "6",
+    "difOnService": "1",
+    "difOnServiceTime": "6"
+  },
+  {
+    "difOnServiceTime": "3",
+    "difOnService": "3",
+    "showWay": "3",
+    "findMedarbejder": "3",
+    "answerQuestions": "2"
+  },
+  {
+    "showWay": "5",
+    "findMedarbejder": "5",
+    "difOnService": "1",
+    "difOnServiceTime": "1",
+    "answerQuestions": "5"
+  },
+  {
+    "findMedarbejder": "4",
+    "showWay": "4",
+    "answerQuestions": "6",
+    "difOnServiceTime": "1",
+    "difOnService": "1"
+  },
+  {
+    "difOnServiceTime": "4",
+    "difOnService": "3",
+    "showWay": "4",
+    "answerQuestions": "3",
+    "findMedarbejder": "4"
+  },
+  {
+    "answerQuestions": "4",
+    "difOnService": "4",
+    "showWay": "6",
+    "difOnServiceTime": "1",
+    "findMedarbejder": "4"
+  },
+  {
+    "difOnServiceTime": "4",
+    "difOnService": "6",
+    "findMedarbejder": "5",
+    "showWay": "5",
+    "answerQuestions": "5"
+  },
+  {
+    "showWay": "6",
+    "difOnServiceTime": "1",
+    "findMedarbejder": "6",
+    "answerQuestions": "6",
+    "difOnService": "2"
+  },
+  {
+    "difOnService": "3",
+    "findMedarbejder": "4",
+    "difOnServiceTime": "5",
+    "answerQuestions": "3",
+    "showWay": "5"
+  },
+  {
+    "answerQuestions": "5",
+    "showWay": "5",
+    "difOnServiceTime": "2",
+    "findMedarbejder": "4",
+    "difOnService": "2"
+  },
+  {
+    "showWay": "4",
+    "difOnService": "3",
+    "findMedarbejder": "4",
+    "difOnServiceTime": "3",
+    "answerQuestions": "3"
+  },
+  {
+    "difOnServiceTime": "4",
+    "showWay": "5",
+    "difOnService": "5",
+    "answerQuestions": "4",
+    "findMedarbejder": "4"
+  },
+  {
+    "answerQuestions": "4",
+    "difOnServiceTime": "5",
+    "showWay": "5",
+    "difOnService": "4",
+    "findMedarbejder": "5"
+  },
+  {
+    "showWay": "6",
+    "findMedarbejder": "4",
+    "difOnServiceTime": "4",
+    "answerQuestions": "6",
+    "difOnService": "4"
+  },
+  {
+    "difOnServiceTime": "4",
+    "findMedarbejder": "2",
+    "difOnService": "4",
+    "showWay": "3",
+    "answerQuestions": "5"
+  },
+  {
+    "answerQuestions": "4",
+    "difOnService": "1",
+    "findMedarbejder": "1",
+    "showWay": "5",
+    "difOnServiceTime": "2"
+  },
+  {
+    "difOnServiceTime": "5",
+    "findMedarbejder": "5",
+    "difOnService": "2",
+    "answerQuestions": "4",
+    "showWay": "5"
+  },
+  {
+    "difOnServiceTime": "2",
+    "difOnService": "5",
+    "answerQuestions": "5",
+    "findMedarbejder": "1",
+    "showWay": "5"
+  },
+  {
+    "showWay": "4",
+    "answerQuestions": "5",
+    "difOnService": "2",
+    "findMedarbejder": "5",
+    "difOnServiceTime": "2"
+  },
+  {
+    "difOnServiceTime": "2",
+    "showWay": "1",
+    "answerQuestions": "2",
+    "findMedarbejder": "3",
+    "difOnService": "2"
+  },
+  {
+    "difOnService": "6",
+    "showWay": "6",
+    "findMedarbejder": "6",
+    "difOnServiceTime": "6",
+    "answerQuestions": "6"
+  },
+  {
+    "findMedarbejder": "5",
+    "difOnService": "5",
+    "difOnServiceTime": "5",
+    "showWay": "4",
+    "answerQuestions": "4"
+  },
+  {
+    "difOnServiceTime": "5",
+    "answerQuestions": "4",
+    "difOnService": "5",
+    "showWay": "4",
+    "findMedarbejder": "3"
+  },
+  {
+    "answerQuestions": "5",
+    "findMedarbejder": "5",
+    "difOnService": "5",
+    "showWay": "4",
+    "difOnServiceTime": "5"
+  },
+  {
+    "showWay": "6",
+    "findMedarbejder": "6",
+    "difOnServiceTime": "3",
+    "difOnService": "3",
+    "answerQuestions": "5"
+  },
+  {
+    "answerQuestions": "4",
+    "findMedarbejder": "4",
+    "difOnService": "1",
+    "difOnServiceTime": "1",
+    "showWay": "4"
+  },
+  {
+    "answerQuestions": "4",
+    "difOnService": "3",
+    "findMedarbejder": "4",
+    "showWay": "4",
+    "difOnServiceTime": "3"
+  },
+  {
+    "difOnServiceTime": "5",
+    "difOnService": "6",
+    "showWay": "3",
+    "findMedarbejder": "4",
+    "answerQuestions": "3"
+  },
+  {
+    "difOnServiceTime": "4",
+    "findMedarbejder": "4",
+    "answerQuestions": "4",
+    "showWay": "5",
+    "difOnService": "4"
+  },
+  {
+    "difOnService": "3",
+    "difOnServiceTime": "2",
+    "findMedarbejder": "2",
+    "showWay": "6",
+    "answerQuestions": "6"
   },
   {
     "answerQuestions": "2",
+    "difOnServiceTime": "6",
+    "difOnService": "6",
+    "findMedarbejder": "2",
+    "showWay": "4"
+  },
+  {
+    "answerQuestions": "4",
     "difOnService": "3",
+    "showWay": "5",
     "difOnServiceTime": "5",
+    "findMedarbejder": "4"
+  },
+  {
+    "answerQuestions": "3",
+    "findMedarbejder": "3",
+    "difOnService": "4",
+    "difOnServiceTime": "1",
+    "showWay": "5"
+  },
+  {
+    "showWay": "5",
+    "answerQuestions": "5",
+    "findMedarbejder": "3",
+    "difOnService": "1",
+    "difOnServiceTime": "1"
+  },
+  {
+    "difOnServiceTime": "1",
+    "showWay": "6",
+    "answerQuestions": "5",
+    "findMedarbejder": "1",
+    "difOnService": "1"
+  },
+  {
+    "difOnServiceTime": "6",
+    "showWay": "4",
     "findMedarbejder": "4",
+    "difOnService": "5",
+    "answerQuestions": "3"
+  },
+  {
+    "difOnService": "3",
+    "answerQuestions": "4",
+    "showWay": "4",
+    "difOnServiceTime": "3",
+    "findMedarbejder": "2"
+  },
+  {
+    "difOnService": "1",
+    "difOnServiceTime": "5",
+    "findMedarbejder": "2",
+    "answerQuestions": "3",
+    "showWay": "5"
+  },
+  {
+    "showWay": "5",
+    "difOnService": "4",
+    "answerQuestions": "5",
+    "findMedarbejder": "1",
+    "difOnServiceTime": "1"
+  },
+  {
+    "showWay": "5",
+    "answerQuestions": "5",
+    "difOnService": "3",
+    "findMedarbejder": "6",
+    "difOnServiceTime": "4"
+  },
+  {
+    "difOnServiceTime": "5",
+    "difOnService": "5",
+    "findMedarbejder": "5",
+    "showWay": "5",
+    "answerQuestions": "5"
+  },
+  {
+    "difOnServiceTime": "6",
+    "findMedarbejder": "3",
+    "showWay": "3",
+    "answerQuestions": "1",
+    "difOnService": "6"
+  },
+  {
+    "difOnServiceTime": "1",
+    "answerQuestions": "2",
+    "showWay": "2",
+    "findMedarbejder": "4",
+    "difOnService": "3"
+  },
+  {
+    "difOnServiceTime": "4",
+    "answerQuestions": "6",
+    "findMedarbejder": "4",
+    "difOnService": "1",
+    "showWay": "6"
+  },
+  {
+    "findMedarbejder": "6",
+    "answerQuestions": "6",
+    "difOnService": "1",
+    "showWay": "6",
+    "difOnServiceTime": "1"
+  },
+  {
+    "answerQuestions": "5",
+    "showWay": "5",
+    "difOnService": "2",
+    "findMedarbejder": "5",
+    "difOnServiceTime": "3"
+  },
+  {
+    "answerQuestions": "1",
+    "difOnService": "3",
+    "findMedarbejder": "1",
+    "difOnServiceTime": "1",
+    "showWay": "1"
+  },
+  {
+    "showWay": "6",
+    "findMedarbejder": "2",
+    "difOnServiceTime": "2",
+    "answerQuestions": "6",
+    "difOnService": "2"
+  },
+  {
+    "difOnServiceTime": "3",
+    "findMedarbejder": "3",
+    "difOnService": "3",
+    "showWay": "3",
+    "answerQuestions": "2"
+  },
+  {
+    "findMedarbejder": "4",
+    "difOnServiceTime": "4",
+    "showWay": "4",
+    "answerQuestions": "5",
+    "difOnService": "6"
+  },
+  {
+    "answerQuestions": "4",
+    "showWay": "5",
+    "findMedarbejder": "4",
+    "difOnServiceTime": "4",
+    "difOnService": "4"
+  },
+  {
+    "difOnService": "1",
+    "answerQuestions": "5",
+    "difOnServiceTime": "1",
+    "findMedarbejder": "4",
+    "showWay": "4"
+  },
+  {
+    "showWay": "3",
+    "findMedarbejder": "4",
+    "difOnServiceTime": "5",
+    "answerQuestions": "3",
+    "difOnService": "6"
+  },
+  {
+    "showWay": "5",
+    "findMedarbejder": "3",
+    "answerQuestions": "5",
+    "difOnService": "4",
+    "difOnServiceTime": "3"
+  },
+  {
+    "findMedarbejder": "3",
+    "difOnService": "4",
+    "showWay": "3",
+    "difOnServiceTime": "4",
+    "answerQuestions": "2"
+  },
+  {
+    "difOnServiceTime": "2",
+    "showWay": "5",
+    "difOnService": "1",
+    "answerQuestions": "5",
+    "findMedarbejder": "5"
+  },
+  {
+    "answerQuestions": "4",
+    "difOnService": "4",
+    "showWay": "5",
+    "findMedarbejder": "4",
+    "difOnServiceTime": "4"
+  },
+  {
+    "findMedarbejder": "2",
+    "answerQuestions": "3",
+    "difOnServiceTime": "6",
+    "difOnService": "4",
+    "showWay": "4"
+  },
+  {
+    "showWay": "4",
+    "difOnService": "6",
+    "findMedarbejder": "6",
+    "difOnServiceTime": "1",
+    "answerQuestions": "5"
+  },
+  {
+    "answerQuestions": "5",
+    "showWay": "5",
+    "findMedarbejder": "2",
+    "difOnService": "1",
+    "difOnServiceTime": "1"
+  },
+  {
+    "findMedarbejder": "5",
+    "answerQuestions": "6",
+    "difOnServiceTime": "1",
+    "difOnService": "1",
+    "showWay": "6"
+  },
+  {
+    "showWay": "3",
+    "difOnServiceTime": "2",
+    "findMedarbejder": "4",
+    "difOnService": "2",
+    "answerQuestions": "5"
+  },
+  {
+    "findMedarbejder": "4",
+    "answerQuestions": "5",
+    "difOnService": "5",
+    "difOnServiceTime": "1",
+    "showWay": "5"
+  },
+  {
+    "answerQuestions": "5",
+    "findMedarbejder": "5",
+    "difOnService": "2",
+    "showWay": "6",
+    "difOnServiceTime": "2"
+  },
+  {
+    "findMedarbejder": "6",
+    "showWay": "6",
+    "answerQuestions": "6",
+    "difOnService": "1",
+    "difOnServiceTime": "1"
+  },
+  {
+    "findMedarbejder": "5",
+    "difOnService": "4",
+    "showWay": "5",
+    "difOnServiceTime": "4",
+    "answerQuestions": "4"
+  },
+  {
+    "difOnServiceTime": "4",
+    "findMedarbejder": "6",
+    "answerQuestions": "5",
+    "difOnService": "5",
+    "showWay": "6"
+  },
+  {
+    "answerQuestions": "3",
+    "findMedarbejder": "3",
+    "difOnServiceTime": "3",
+    "difOnService": "4",
+    "showWay": "3"
+  },
+  {
+    "difOnServiceTime": "1",
+    "answerQuestions": "5",
+    "difOnService": "1",
+    "findMedarbejder": "5",
+    "showWay": "6"
+  },
+  {
+    "showWay": "5",
+    "difOnService": "2",
+    "difOnServiceTime": "2",
+    "findMedarbejder": "5",
+    "answerQuestions": "5"
+  },
+  {
+    "difOnService": "4",
+    "showWay": "6",
+    "difOnServiceTime": "3",
+    "findMedarbejder": "6",
+    "answerQuestions": "5"
+  },
+  {
+    "difOnService": "4",
+    "findMedarbejder": "5",
+    "answerQuestions": "5",
+    "showWay": "5",
+    "difOnServiceTime": "4"
+  },
+  {
+    "answerQuestions": "4",
+    "findMedarbejder": "4",
+    "difOnServiceTime": "1",
+    "difOnService": "2",
+    "showWay": "4"
+  },
+  {
+    "showWay": "5",
+    "difOnService": "2",
+    "answerQuestions": "5",
+    "difOnServiceTime": "1",
+    "findMedarbejder": "5"
+  },
+  {
+    "showWay": "5",
+    "answerQuestions": "6",
+    "difOnServiceTime": "3",
+    "difOnService": "2",
+    "findMedarbejder": "5"
+  },
+  {
+    "difOnService": "4",
+    "findMedarbejder": "5",
+    "showWay": "5",
+    "answerQuestions": "5",
+    "difOnServiceTime": "4"
+  },
+  {
+    "showWay": "4",
+    "difOnService": "3",
+    "findMedarbejder": "3",
+    "difOnServiceTime": "3",
+    "answerQuestions": "5"
+  },
+  {
+    "difOnService": "4",
+    "difOnServiceTime": "2",
+    "answerQuestions": "5",
+    "findMedarbejder": "4",
+    "showWay": "4"
+  },
+  {
+    "answerQuestions": "4",
+    "difOnService": "2",
+    "difOnServiceTime": "2",
+    "findMedarbejder": "4",
+    "showWay": "6"
+  },
+  {
+    "findMedarbejder": "6",
+    "difOnServiceTime": "1",
+    "answerQuestions": "6",
+    "difOnService": "1",
+    "showWay": "6"
+  },
+  {
+    "difOnService": "3",
+    "answerQuestions": "5",
+    "showWay": "6",
+    "findMedarbejder": "5",
+    "difOnServiceTime": "4"
+  },
+  {
+    "showWay": "1",
+    "difOnServiceTime": "1",
+    "difOnService": "1",
+    "findMedarbejder": "1",
+    "answerQuestions": "1"
+  },
+  {
+    "answerQuestions": "5",
+    "difOnServiceTime": "1",
+    "showWay": "5",
+    "difOnService": "1",
+    "findMedarbejder": "3"
+  },
+  {
+    "answerQuestions": "4",
+    "findMedarbejder": "5",
+    "showWay": "5",
+    "difOnServiceTime": "5",
+    "difOnService": "4"
+  },
+  {
+    "showWay": "5",
+    "answerQuestions": "4",
+    "findMedarbejder": "3",
+    "difOnService": "3",
+    "difOnServiceTime": "1"
+  },
+  {
+    "findMedarbejder": "1",
+    "answerQuestions": "3",
+    "showWay": "3",
+    "difOnService": "6",
+    "difOnServiceTime": "5"
+  },
+  {
+    "findMedarbejder": "4",
+    "answerQuestions": "4",
+    "showWay": "4",
+    "difOnService": "3",
+    "difOnServiceTime": "2"
+  },
+  {
+    "showWay": "3",
+    "findMedarbejder": "6",
+    "difOnService": "5",
+    "difOnServiceTime": "6",
+    "answerQuestions": "4"
+  },
+  {
+    "difOnService": "3",
+    "showWay": "4",
+    "findMedarbejder": "4",
+    "difOnServiceTime": "4",
+    "answerQuestions": "4"
+  },
+  {
+    "difOnService": "2",
+    "findMedarbejder": "4",
+    "difOnServiceTime": "2",
+    "showWay": "4",
+    "answerQuestions": "4"
+  },
+  {
+    "difOnServiceTime": "3",
+    "findMedarbejder": "3",
+    "answerQuestions": "3",
+    "showWay": "3",
+    "difOnService": "4"
+  },
+  {
+    "difOnServiceTime": "1",
+    "difOnService": "1",
+    "findMedarbejder": "1",
+    "answerQuestions": "3",
+    "showWay": "4"
+  },
+  {
+    "findMedarbejder": "6",
+    "difOnServiceTime": "3",
+    "showWay": "2",
+    "difOnService": "6",
+    "answerQuestions": "4"
+  },
+  {
+    "findMedarbejder": "2",
+    "answerQuestions": "2",
+    "difOnServiceTime": "6",
+    "showWay": "4",
+    "difOnService": "6"
+  },
+  {
+    "difOnServiceTime": "3",
+    "findMedarbejder": "3",
+    "difOnService": "3",
+    "answerQuestions": "5",
+    "showWay": "4"
+  },
+  {
+    "showWay": "5",
+    "answerQuestions": "5",
+    "difOnService": "3",
+    "findMedarbejder": "5",
+    "difOnServiceTime": "3"
+  },
+  {
+    "difOnService": "3",
+    "findMedarbejder": "6",
+    "answerQuestions": "6",
+    "difOnServiceTime": "3",
+    "showWay": "5"
+  },
+  {
+    "findMedarbejder": "3",
+    "difOnServiceTime": "4",
+    "difOnService": "4",
+    "showWay": "3",
+    "answerQuestions": "3"
+  },
+  {
+    "showWay": "4",
+    "answerQuestions": "4",
+    "difOnServiceTime": "4",
+    "findMedarbejder": "4",
+    "difOnService": "4"
+  },
+  {
+    "findMedarbejder": "1",
+    "difOnServiceTime": "1",
+    "difOnService": "1",
+    "answerQuestions": "1",
+    "showWay": "1"
+  },
+  {
+    "difOnServiceTime": "1",
+    "answerQuestions": "1",
+    "findMedarbejder": "1",
+    "showWay": "1",
+    "difOnService": "1"
+  },
+  {
+    "difOnServiceTime": "2",
+    "findMedarbejder": "4",
+    "difOnService": "2",
+    "answerQuestions": "5",
+    "showWay": "6"
+  },
+  {
+    "findMedarbejder": "3",
+    "showWay": "4",
+    "difOnService": "4",
+    "difOnServiceTime": "4",
+    "answerQuestions": "4"
+  },
+  {
+    "answerQuestions": "6",
+    "showWay": "6",
+    "findMedarbejder": "2",
+    "difOnService": "2",
+    "difOnServiceTime": "2"
+  },
+  {
+    "showWay": "3",
+    "answerQuestions": "3",
+    "difOnService": "2",
+    "difOnServiceTime": "3",
+    "findMedarbejder": "3"
+  },
+  {
+    "showWay": "5",
+    "difOnServiceTime": "4",
+    "findMedarbejder": "5",
+    "answerQuestions": "5",
+    "difOnService": "2"
+  },
+  {
+    "findMedarbejder": "1",
+    "showWay": "5",
+    "difOnService": "2",
+    "answerQuestions": "5",
+    "difOnServiceTime": "1"
+  },
+  {
+    "findMedarbejder": "3",
+    "showWay": "4",
+    "answerQuestions": "4",
+    "difOnServiceTime": "3",
+    "difOnService": "6"
+  },
+  {
+    "showWay": "4",
+    "answerQuestions": "3",
+    "difOnServiceTime": "4",
+    "difOnService": "6",
+    "findMedarbejder": "1"
+  },
+  {
+    "difOnServiceTime": "5",
+    "findMedarbejder": "3",
+    "answerQuestions": "3",
+    "difOnService": "5",
+    "showWay": "3"
+  },
+  {
+    "difOnService": "2",
+    "answerQuestions": "6",
+    "findMedarbejder": "6",
+    "difOnServiceTime": "1",
+    "showWay": "6"
+  },
+  {
+    "answerQuestions": "4",
+    "findMedarbejder": "5",
+    "difOnService": "4",
+    "difOnServiceTime": "5",
+    "showWay": "3"
+  },
+  {
+    "findMedarbejder": "2",
+    "difOnService": "1",
+    "showWay": "3",
+    "answerQuestions": "5",
+    "difOnServiceTime": "1"
+  },
+  {
+    "difOnServiceTime": "3",
+    "findMedarbejder": "3",
+    "difOnService": "1",
+    "answerQuestions": "3",
+    "showWay": "3"
+  },
+  {
+    "difOnServiceTime": "4",
+    "difOnService": "3",
+    "findMedarbejder": "5",
+    "showWay": "5",
+    "answerQuestions": "5"
+  },
+  {
+    "difOnService": "6",
+    "answerQuestions": "5",
+    "difOnServiceTime": "6",
+    "findMedarbejder": "6",
+    "showWay": "5"
+  },
+  {
+    "answerQuestions": "6",
+    "showWay": "6",
+    "difOnService": "1",
+    "difOnServiceTime": "1",
+    "findMedarbejder": "6"
+  },
+  {
+    "findMedarbejder": "2",
+    "showWay": "3",
+    "answerQuestions": "3",
+    "difOnServiceTime": "3",
+    "difOnService": "5"
+  },
+  {
+    "showWay": "6",
+    "difOnServiceTime": "1",
+    "findMedarbejder": "6",
+    "answerQuestions": "6",
+    "difOnService": "1"
+  },
+  {
+    "showWay": "4",
+    "difOnServiceTime": "5",
+    "answerQuestions": "4",
+    "findMedarbejder": "3",
+    "difOnService": "3"
+  },
+  {
+    "difOnServiceTime": "1",
+    "answerQuestions": "5",
+    "difOnService": "1",
+    "showWay": "4",
+    "findMedarbejder": "3"
+  },
+  {
+    "difOnService": "6",
+    "findMedarbejder": "2",
+    "answerQuestions": "5",
+    "showWay": "5",
+    "difOnServiceTime": "6"
+  },
+  {
+    "answerQuestions": "4",
+    "findMedarbejder": "3",
+    "difOnServiceTime": "3",
+    "showWay": "4",
+    "difOnService": "3"
+  },
+  {
+    "showWay": "6",
+    "difOnServiceTime": "4",
+    "findMedarbejder": "4",
+    "difOnService": "5",
+    "answerQuestions": "6"
+  },
+  {
+    "difOnService": "6",
+    "showWay": "5",
+    "answerQuestions": "5",
+    "difOnServiceTime": "5",
+    "findMedarbejder": "4"
+  },
+  {
+    "findMedarbejder": "5",
+    "answerQuestions": "5",
+    "showWay": "5",
+    "difOnService": "3",
+    "difOnServiceTime": "3"
+  },
+  {
+    "findMedarbejder": "1",
+    "difOnServiceTime": "6",
+    "answerQuestions": "2",
+    "showWay": "3",
+    "difOnService": "4"
+  },
+  {
+    "answerQuestions": "3",
+    "showWay": "5",
+    "difOnService": "1",
+    "difOnServiceTime": "4",
+    "findMedarbejder": "5"
+  },
+  {
+    "showWay": "6",
+    "difOnServiceTime": "6",
+    "answerQuestions": "6",
+    "difOnService": "1",
+    "findMedarbejder": "3"
+  },
+  {
+    "showWay": "3",
+    "difOnService": "4",
+    "answerQuestions": "3",
+    "findMedarbejder": "4",
+    "difOnServiceTime": "3"
+  },
+  {
+    "answerQuestions": "5",
+    "findMedarbejder": "4",
+    "difOnServiceTime": "6",
+    "difOnService": "4",
+    "showWay": "5"
+  },
+  {
+    "findMedarbejder": "3",
+    "difOnService": "1",
+    "difOnServiceTime": "1",
+    "showWay": "6",
+    "answerQuestions": "5"
+  },
+  {
+    "findMedarbejder": "2",
+    "showWay": "3",
+    "difOnService": "4",
+    "answerQuestions": "3",
+    "difOnServiceTime": "6"
+  },
+  {
+    "findMedarbejder": "3",
+    "showWay": "4",
+    "difOnServiceTime": "5",
+    "difOnService": "5",
+    "answerQuestions": "4"
+  },
+  {
+    "difOnServiceTime": "5",
+    "findMedarbejder": "6",
+    "showWay": "6",
+    "difOnService": "5",
+    "answerQuestions": "6"
+  },
+  {
+    "difOnService": "1",
+    "answerQuestions": "4",
+    "difOnServiceTime": "2",
+    "showWay": "4",
+    "findMedarbejder": "2"
+  },
+  {
+    "difOnServiceTime": "6",
+    "showWay": "4",
+    "answerQuestions": "3",
+    "difOnService": "6",
+    "findMedarbejder": "4"
+  },
+  {
+    "showWay": "6",
+    "difOnServiceTime": "4",
+    "answerQuestions": "5",
+    "difOnService": "5",
+    "findMedarbejder": "5"
+  },
+  {
+    "difOnService": "3",
+    "answerQuestions": "5",
+    "showWay": "6",
+    "difOnServiceTime": "4",
+    "findMedarbejder": "5"
+  },
+  {
+    "difOnServiceTime": "5",
+    "showWay": "2",
+    "difOnService": "6",
+    "findMedarbejder": "5",
+    "answerQuestions": "2"
+  },
+  {
+    "answerQuestions": "4",
+    "showWay": "4",
+    "difOnServiceTime": "3",
+    "findMedarbejder": "3",
+    "difOnService": "4"
+  },
+  {
+    "answerQuestions": "4",
+    "findMedarbejder": "4",
+    "difOnService": "2",
+    "difOnServiceTime": "4",
+    "showWay": "6"
+  },
+  {
+    "answerQuestions": "4",
+    "difOnService": "3",
+    "findMedarbejder": "5",
+    "showWay": "5",
+    "difOnServiceTime": "4"
+  },
+  {
+    "findMedarbejder": "5",
+    "answerQuestions": "4",
+    "difOnServiceTime": "4",
+    "difOnService": "5",
+    "showWay": "4"
+  },
+  {
+    "answerQuestions": "6",
+    "difOnService": "5",
+    "difOnServiceTime": "1",
+    "findMedarbejder": "1",
+    "showWay": "3"
+  },
+  {
+    "findMedarbejder": "5",
+    "difOnServiceTime": "4",
+    "showWay": "5",
+    "answerQuestions": "4",
+    "difOnService": "2"
+  },
+  {
+    "difOnService": "3",
+    "findMedarbejder": "4",
+    "difOnServiceTime": "5",
+    "showWay": "5",
+    "answerQuestions": "5"
+  },
+  {
+    "findMedarbejder": "3",
+    "difOnServiceTime": "3",
+    "answerQuestions": "3",
+    "difOnService": "4",
     "showWay": "2"
   },
   {
-    "answerQuestions": "5",
-    "difOnService": "4",
+    "answerQuestions": "1",
     "difOnServiceTime": "2",
-    "findMedarbejder": "4",
-    "showWay": "5"
+    "showWay": "1",
+    "difOnService": "1",
+    "findMedarbejder": "2"
   },
   {
-    "answerQuestions": "5",
-    "difOnService": "4",
-    "difOnServiceTime": "2",
-    "findMedarbejder": "4",
-    "showWay": "5"
+    "difOnServiceTime": "3",
+    "findMedarbejder": "3",
+    "showWay": "3",
+    "difOnService": "3",
+    "answerQuestions": "3"
   },
   {
-    "answerQuestions": "5",
-    "difOnService": "4",
-    "difOnServiceTime": "5",
+    "difOnServiceTime": "4",
+    "showWay": "4",
+    "difOnService": "3",
+    "findMedarbejder": "5",
+    "answerQuestions": "5"
+  },
+  {
+    "findMedarbejder": "3",
+    "showWay": "4",
+    "difOnServiceTime": "3",
+    "difOnService": "3",
+    "answerQuestions": "5"
+  },
+  {
     "findMedarbejder": "4",
-    "showWay": "5"
+    "difOnService": "4",
+    "answerQuestions": "4",
+    "showWay": "4",
+    "difOnServiceTime": "4"
   }
 ]
