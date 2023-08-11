@@ -599,6 +599,124 @@ export default function Evening() {
             </div>
             <p>Stor</p>
           </div>
+          <div>
+            <label
+              style={{
+                fontSize: "1.3em",
+                fontWeight: "500",
+              }}
+            >
+              Har du kunne mærke til nogen forskel på servicen de seneste 30
+              dage?
+            </label>
+            <div style={{ display: "flex", justifyContent: "space-evenly" }}>
+              <p>Ingen</p>
+              <div
+                style={{
+                  display: "flex",
+                  flexDirection: "column-reverse",
+                  textAlign: "center",
+                  scale: "1.5",
+                }}
+              >
+                <input
+                  required
+                  type="radio"
+                  id="1"
+                  name="difOnServiceMonth"
+                  value="1"
+                />
+                <label htmlFor="1">1</label>
+              </div>
+              <div
+                style={{
+                  display: "flex",
+                  flexDirection: "column-reverse",
+                  textAlign: "center",
+                  scale: "1.5",
+                }}
+              >
+                <input
+                  required
+                  type="radio"
+                  id="2"
+                  name="difOnServiceMonth"
+                  value="2"
+                />
+                <label htmlFor="2">2</label>
+              </div>
+              <div
+                style={{
+                  display: "flex",
+                  flexDirection: "column-reverse",
+                  textAlign: "center",
+                  scale: "1.5",
+                }}
+              >
+                <input
+                  required
+                  type="radio"
+                  id="3"
+                  name="difOnServiceMonth"
+                  value="3"
+                />
+                <label htmlFor="3">3</label>
+              </div>
+              <div
+                style={{
+                  display: "flex",
+                  flexDirection: "column-reverse",
+                  textAlign: "center",
+                  scale: "1.5",
+                }}
+              >
+                <input
+                  required
+                  type="radio"
+                  id="4"
+                  name="difOnServiceMonth"
+                  value="4"
+                />
+                <label htmlFor="4">4</label>
+              </div>
+              <div
+                style={{
+                  display: "flex",
+                  flexDirection: "column-reverse",
+                  textAlign: "center",
+                  scale: "1.5",
+                }}
+              >
+                <input
+                  required
+                  type="radio"
+                  id="5"
+                  name="difOnServiceMonth"
+                  value="5"
+                />
+                <label htmlFor="5">5</label>
+              </div>
+              <div
+                style={{
+                  display: "flex",
+                  flexDirection: "column-reverse",
+                  textAlign: "center",
+                  scale: "1.5",
+                }}
+              >
+                <input
+                  required
+                  type="radio"
+                  id="6"
+                  name="difOnServiceMonth"
+                  value={"6"}
+                />
+
+                <label htmlFor="6">6</label>
+              </div>
+              <p>Stor</p>
+            </div>
+          </div>
         </div>
 
         <input required type="submit" value={"Indsend svar"} />

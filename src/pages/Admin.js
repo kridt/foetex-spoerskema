@@ -73,6 +73,14 @@ export default function Admin() {
           morning?.filter((answer) => answer.difOnServiceTime === "5").length,
           morning?.filter((answer) => answer.difOnServiceTime === "6").length,
         ],
+        difOnServiceMonth: [
+          morning?.filter((answer) => answer.difOnServiceMonth === "1").length,
+          morning?.filter((answer) => answer.difOnServiceMonth === "2").length,
+          morning?.filter((answer) => answer.difOnServiceMonth === "3").length,
+          morning?.filter((answer) => answer.difOnServiceMonth === "4").length,
+          morning?.filter((answer) => answer.difOnServiceMonth === "5").length,
+          morning?.filter((answer) => answer.difOnServiceMonth === "6").length,
+        ],
       });
 
       setEveningCounter({
@@ -115,6 +123,14 @@ export default function Admin() {
           evening?.filter((answer) => answer.difOnServiceTime === "4").length,
           evening?.filter((answer) => answer.difOnServiceTime === "5").length,
           evening?.filter((answer) => answer.difOnServiceTime === "6").length,
+        ],
+        difOnServiceMonth: [
+          evening?.filter((answer) => answer.difOnServiceMonth === "1").length,
+          evening?.filter((answer) => answer.difOnServiceMonth === "2").length,
+          evening?.filter((answer) => answer.difOnServiceMonth === "3").length,
+          evening?.filter((answer) => answer.difOnServiceMonth === "4").length,
+          evening?.filter((answer) => answer.difOnServiceMonth === "5").length,
+          evening?.filter((answer) => answer.difOnServiceMonth === "6").length,
         ],
       });
     }, 1000);
@@ -286,6 +302,36 @@ export default function Admin() {
                 })}
               </div>
             </div>
+            <div>
+              <p>Forskel de seneste 30 dage: </p>
+              <div
+                style={{
+                  display: "flex",
+                  justifyContent: "space-between",
+                  maxWidth: "70%",
+                  margin: "0 auto",
+                }}
+              >
+                <p>1</p>
+                <p>2</p>
+                <p>3</p>
+                <p>4</p>
+                <p>5</p>
+                <p>6</p>
+              </div>
+              <div
+                style={{
+                  display: "flex",
+                  justifyContent: "space-between",
+                  maxWidth: "70%",
+                  margin: "0 auto",
+                }}
+              >
+                {morningAnwerCounter?.difOnServiceMonth?.map((answer) => {
+                  return <p>{answer}</p>;
+                })}
+              </div>
+            </div>
           </div>
           <div className="aftenStats" style={{ paddingLeft: "1em" }}>
             <h1 style={{ textAlign: "center" }}>
@@ -450,17 +496,40 @@ export default function Admin() {
                   })}
                 </div>
               </div>
+              <div>
+                <p>Forskel de seneste 30 dage: </p>
+                <div
+                  style={{
+                    display: "flex",
+                    justifyContent: "space-between",
+                    maxWidth: "70%",
+                    margin: "0 auto",
+                  }}
+                >
+                  <p>1</p>
+                  <p>2</p>
+                  <p>3</p>
+                  <p>4</p>
+                  <p>5</p>
+                  <p>6</p>
+                </div>
+                <div
+                  style={{
+                    display: "flex",
+                    justifyContent: "space-between",
+                    maxWidth: "70%",
+                    margin: "0 auto",
+                  }}
+                >
+                  {eveningCounter?.difOnServiceMonth?.map((answer) => {
+                    return <p>{answer}</p>;
+                  })}
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
-      {/* <Chart
-        chartType="BarChart"
-        data={thatData}
-        width="100%"
-        height="400px"
-        options={options}
-      /> */}
     </div>
   );
 }
